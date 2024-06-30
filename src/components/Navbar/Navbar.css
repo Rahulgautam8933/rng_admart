@@ -1,0 +1,190 @@
+
+
+@media (min-width:05px) and (max-width:1110px) {
+
+    .navcontainer{
+        background-color: transparent;
+        /* background-color: black; */
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+    }
+    .navboxs{
+        display: flex;
+        width: 90%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    
+    .navbox1 {
+        
+        width: 6rem;
+        /* height: 7rem; */
+    }
+    .navbox1 img{
+        
+        width: 100%;
+        /* height: 100%; */
+        /* margin-top:1.2rem ; */
+        background-color: white;
+    
+    }
+   
+    .navbox4{
+        display: block;
+    }
+    .navbox4 .navmenu{
+        font-size: 18px;
+        font-weight: bold;
+        margin: 2rem;
+    }
+    .navbox2{
+        display: none;
+    }
+    .navbox3{
+        display: none;
+    }
+    
+    
+}
+
+
+@media (min-width:1110px) {
+
+
+    .navcontainer{
+        background-color: transparent;
+        /* background-color: black; */
+        position: absolute;
+        width: 100%;
+        z-index: 3;
+    }
+    .navboxs{
+        display: flex;
+        width: 95%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    
+    .navbox1 {
+        
+        width: 10rem;
+        /* height: 10rem; */
+
+        
+    
+    }
+    .navbox1 img{
+        
+        width: 100%;
+        /* height: 100%; */
+        /* margin-top:1.2rem ; */
+        background-color: white;
+    
+    }
+    .navbox2 ul{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .navbox2 ul li{
+        padding: 0.5rem;
+        margin: 0.5rem;
+        list-style: none;
+        position: relative;
+        
+        
+    }
+    
+    .navbox2 ul li a{
+        text-decoration: none;
+        color: black;
+        /* color: black; */
+        font-size: 18px;
+        font-weight: bold;
+        /* text-shadow: 0px 9px 7px black; */
+        
+    }
+    .navbox2 ul li a:hover{
+        color: rgb(42, 6, 100);
+      
+    }
+    .navbox3 .linki{
+        color: black;
+        /* color: black; */
+        font-size: 18px;
+        padding: 0.3rem;
+        /* margin: 1rem 0.1rem; */
+        margin-top: 1.8rem;
+        /* box-shadow: 0px 9px 7px black; */
+    }
+    .navbox3 .linki:hover{
+        color: blue;
+    }
+
+    .navbox4{
+        display: none;
+    }
+
+    .navbox2 #aboutlink:hover .aboutuslink{
+        display: block;
+    } 
+
+    .aboutuslink{
+        /* border: 1px solid black; */
+        position: absolute;
+        background-color: white;   
+        width: 16rem;
+        padding: 1rem;
+        /* border-radius: 15px; */
+        margin: 0.3rem;
+        display: none;
+    }
+    .aboutuslink ul {
+        display: flex;  
+        flex-direction: column; 
+    }
+    .aboutuslink ul li {
+        list-style: none;
+        padding: 0.3rem 1rem;
+        margin: 0.1rem;
+    }
+    .aboutuslink ul li a {
+        /* color: black; */
+        text-shadow: none;
+
+    }
+
+    #projectlink{
+        position: relative;
+
+    }
+    #projectlink:hover  .projectslink ul {
+        display: block;
+        
+
+    }
+    .projectslink ul{
+        display: flex;
+        flex-direction: column;
+        background-color: white; 
+        padding: 1rem;
+        margin: 0.4rem 0rem;
+        width: 15rem;
+        display: none;
+    }
+    .projectslink ul li a{
+        text-shadow: none;
+    }
+    .projectslink{
+        position: absolute;
+        
+    }
+
+
+
+
+
+    
+    
+}

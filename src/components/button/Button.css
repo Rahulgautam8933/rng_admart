@@ -1,0 +1,43 @@
+.button{
+    padding: 0.5rem;
+    position: relative;
+}
+.button button{
+    background-color: rgb(169, 169, 45);
+    padding:0.4rem;
+    font-size: 18px;
+}
+.button::before{
+    content: "";
+    position: absolute;
+    /* background-color: blue; */
+    /* border: 4px solid yellow; */
+    width: 10%;
+    height: 15%;
+    border-top: 4px solid yellow;
+    border-left: 4px solid yellow;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+
+}
+.button::after{
+    content: "";
+    position: absolute;
+    /* background-color: blue; */
+    /* border: 4px solid yellow; */
+    width: 10%;
+    height: 15%;
+    border-bottom: 4px solid yellow;
+    border-right: 4px solid yellow;
+    bottom: 0;
+    right: 0;
+    transition: all 1s;
+
+}
+
+.button:hover:before,.button:hover:after{
+    width: 90%;
+    height: 80%;
+    /* transform: rotate(360deg); */
+}
